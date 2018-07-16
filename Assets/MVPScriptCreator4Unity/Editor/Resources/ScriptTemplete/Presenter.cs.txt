@@ -1,0 +1,19 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace #NAMESPACE
+{
+    public class #SCRIPTNAME#Presenter : MonoBehaviour
+    {
+       private #SCRIPTNAME#Model _model;
+
+        [SerializeField] private #SCRIPTNAME#View _view;
+
+        public void Initialize()
+        {
+            _model = new #SCRIPTNAME#Model();
+            _view.Initialize();
+        }
+    }
+}
