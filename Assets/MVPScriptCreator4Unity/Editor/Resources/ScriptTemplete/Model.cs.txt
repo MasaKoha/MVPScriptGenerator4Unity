@@ -1,0 +1,9 @@
+﻿namespace #NAMESPACE
+{
+    public class #SCRIPTNAME#Model
+    {
+        public #SCRIPTNAME#Model()
+        {
+        }
+    }
+}
