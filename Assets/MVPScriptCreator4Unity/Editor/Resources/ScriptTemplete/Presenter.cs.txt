@@ -6,9 +6,9 @@ namespace #NAMESPACE
 {
     public class #SCRIPTNAME#Presenter : MonoBehaviour
     {
-       private #SCRIPTNAME#Model _model;
+        private #SCRIPTNAME#Model _model;
 
-        [SerializeField] private #SCRIPTNAME#View _view;
+        [SerializeField] private #SCRIPTNAME#View _view = null;
 
         public void Initialize()
         {
