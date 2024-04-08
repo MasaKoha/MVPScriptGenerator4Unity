@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace #NAMESPACE
 {
-    public class #SCRIPTNAME#View : MonoBehaviour
+    public sealed class #SCRIPTNAME#View : MonoBehaviour
     {
         public void Initialize()
         {

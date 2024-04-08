@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace #NAMESPACE
 {
-    public class #SCRIPTNAME#Presenter : MonoBehaviour
+    public sealed class #SCRIPTNAME#Presenter : MonoBehaviour
     {
         private #SCRIPTNAME#Model _model;
 
